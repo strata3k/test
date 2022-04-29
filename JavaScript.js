@@ -149,7 +149,7 @@ const myStory = {
 }
 
 
-function buildmyStory(){
+function buildStory(){
 	let story = ``;
 	if (breadCrumbs.length < 1){
 		return false;
