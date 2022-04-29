@@ -284,9 +284,7 @@ const myStory = {
 	},	
 	ending1: {
 		mainText: `<h2>"Very well... You were a good adventurer." You are killed by Greg in the Adventurer's Dream. You were now brought back into the city of Yarn, but there are no more lamps to be seen. You are now left to roam the streets of Yarn or die trying. </h2>`,
-		option: [
-			[]
-		]
+		option: []
 	},	
 	ending2: {
 		mainText: `<h2>"Why is it that you want to be so different. Just hand it over." </h2>`,
