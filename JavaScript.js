@@ -58,7 +58,7 @@ const myStory = {
 		]
 	},
 	background: {
-		mainText: `<h2>"You are trapped in the adventurer's realm. This is the dream of the adventuerer, a place for those to seek refuge, but unable to escape fully. The realm that you were once in however, that was the city of Yarn. The people there have changed, there are beasts that roam the city and kill those who wonder it. You must be careful when you return. </h2>`,
+		mainText: `<h2>"You are trapped in the Adventurer's realm. This is the dream of the Adventurer, a place for those to seek refuge, but unable to escape fully. The realm that you were once in however, that was the city of Yarn. The people there have changed, there are beasts that roam the city and kill those who wonder it. You must be careful when you return. </h2>`,
 		option: [
 			['How do I leave?','leaving'],
 		]
@@ -82,7 +82,7 @@ const myStory = {
 		]
 	},
 	weapons2: {
-		mainText: `<h2>"Ah, thankfully I found some leftover gear. Be very careful when you go to into the city, danger lurks every corner adventuerer." You receive a blunderbust and a serrated sword . You exit the chapal and notice the gravestone now has frogs on it and a lit lamp. </h2>`,
+		mainText: `<h2>"Ah, thankfully I found some leftover gear. Be very careful when you go to into the city, danger lurks every corner Adventurer." You receive a blunderbust and a serrated sword . You exit the chapal and notice the gravestone now has frogs on it and a lit lamp. </h2>`,
 		option: [
 			['Go to gravestone','gravestoneOpen'],
 		]
@@ -108,11 +108,17 @@ const myStory = {
 	outside: {
 		mainText: `<h2>Walking through the empty halls of the clinic and out the door you go. You are now entering the city of Yarn. You see this light coming from a distance. You hear the sound of walking on this stone path. 3 humanoid figures emerge from the stone path and they notice you. You can see them muttering something with their torches and weapons in their hands." </h2>`,
 		option: [
-			['Walk to them','walk'],
-			['Stay back','stay']
+			['Walk to them','walk1'],
+			['Stay back','stay1']
 		]
 	},
-	walk: {
+	stay1: {
+		mainText: `<h2>You stay put and wait for them to pass. The figures pass you. </h2>`,
+		option: [
+			['Walk to bridge','bridge'],
+		]
+	},	
+	walk1: {
 		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
 		option: [
 			['Shoot with their blunderbust','blunderbust'],
@@ -122,8 +128,7 @@ const myStory = {
 	blunderbust: {
 		mainText: `<h2>You shoot at the 3 and they all fall down. Dead. The body then starts to fade away into dust. </h2>`,
 		option: [
-			['','woken'],
-			['']
+			['A small vile of blood was dropped','vileOptain'],
 		]
 	},
 	sword: {
@@ -185,37 +190,100 @@ const myStory = {
 		]
 	},	
 	bridge: {
-		mainText: `<h2> </h2>`,
+		mainText: `<h2>As you walk onto the bridge you see this grand cathedral at the end of it.  </h2>`,
 		option: [
-			['slash with sword','sword2'],
+			['Walk to the cathedral','cathedralLamp'],
 		]
 	},	
-	bridge: {
-		mainText: `<h2>You roll out of the cleaver's swip </h2>`,
+	cathedralLamp: {
+		mainText: `<h2>You spot a small lamp post at the cathedral. </h2>`,
 		option: [
-			['slash with sword','sword2'],
+			['light lamp and continue','cathedral'],
 		]
 	},	
-	evade: {
-		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
+
+	cathedral: {
+		mainText: `<h2>As soon as you step off the bridge, a large dog-like creature jumps from the top of the cathedral. It roars at you causing you to stumble. It swipes at you, but </h2>`,
 		option: [
-			['slash with sword','sword2'],
+			['Use the blunderbust','blunderbust2'],
+			['Use the sword', 'sword3'],
+			['Evade', 'evade2'],
 		]
 	},	
-	evade: {
-		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
+	blunderbust2: {
+		mainText: `<h2>You shoot at the hands of the beast. It screeches in pain. </h2>`,
 		option: [
-			['slash with sword','sword2'],
+			['stab the beast','stab'],
 		]
 	},	
-	evade: {
-		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
+	sword3: {
+		mainText: `<h2>You try to stab the beast, but its no use because the strength of the beast is too great. You died. </h2>`,
 		option: [
-			['slash with sword','sword2'],
+			['respawn','cathedralLamp2'],
 		]
 	},	
-	evade: {
-		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
+
+	evade2: {
+		mainText: `<h2>You roll out of the beast's grasp in time. </h2>`,
+		option: [
+			['stab the beast from the side','sidestab'],
+		]
+	},	
+
+	stab: {
+		mainText: `<h2>You stab the beast in the chest. It bellows in pain. </h2>`,
+		option: [
+			['shoot with blunderbust','finalkill'],
+		]
+	},	
+	
+	cathedralLamp2: {
+		mainText: `<h2>You reanimate from the lamp nearby. </h2>`,
+		option: [
+			['run back to the cathedral','cathedral2'],
+		],
+
+	cathedral2: {
+		mainText: `<h2>In front of the cathedral the beast hops down and screeches again. You stumble and it tries to grab you. </h2>`,
+		option: [
+			['Evade','evade2'],
+			['Use the blunderbust','blunderbust2'],
+		]
+	},	
+
+	},	
+	sidestab: {
+		mainText: `<h2>You stab the beast's side and it falls down. You can hear its raspy breath. </h2>`,
+		option: [
+			['Lay it to rest with sword','swordrest'],
+		]
+	},	
+	finalkill: {
+		mainText: `<h2>The beast turns into dust as your sword was inside of it's chest. It drops it's brain. </h2>`,
+		option: [
+			['grab the brain','brain'],
+		]
+	},	
+	swordrest: {
+		mainText: `<h2>You go to the nape of the beast to lay it to rest. As you deliever it, it fades away. It drops its brain. </h2>`,
+		option: [
+			['grab the brain','brain'],
+		]
+	},	
+	brain: {
+		mainText: `<h2>You pick up its brain. </h2>`,
+		option: [
+			['Return to the Adventurer`s Dream','return1'],
+		]
+	},	
+	return1: {
+		mainText: `<h2>You return into the Adventurer's Dream. </h2>`,
+		option: [
+			['Go to Greg','greg2'],
+		]
+	},	
+	greg2: {
+		mainText: `<h2>"You've done it dear Adventurer.  </h2>`,
 		option: [
 			['slash with sword','sword2'],
 		]
