@@ -235,6 +235,7 @@ const myStory = {
 		option: [
 			['run back to the cathedral','cathedral2'],
 		],
+	},
 
 	cathedral2: {
 		mainText: `<h2>In front of the cathedral the beast hops down and screeches again. You stumble and it tries to grab you. </h2>`,
@@ -244,7 +245,6 @@ const myStory = {
 		]
 	},	
 
-	},	
 	sidestab: {
 		mainText: `<h2>You stab the beast's side and it falls down. You can hear its raspy breath. </h2>`,
 		option: [
@@ -320,24 +320,52 @@ const myStory = {
 		]
 	},	
 	dodge: {
-		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
+		mainText: `<h2>You roll away from Greg. You're now positioned behind him</h2>`,
 		option: [
-			['slash with sword','sword2'],
+			['Use your blunderbust','critical'],
+			['Backstab him','backStab'],
 		]
 	},	
-	evade: {
-		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
+	bloodVile: {
+		mainText: `<h2>You drink the bloodvile. You feel rejuvinated and are transforming into a much larger creature. You became a beast. Greg's great sword becomes apart of your body.  </h2>`,
 		option: [
-			['slash with sword','sword2'],
+			['slash at Greg','beastEnding'],
 		]
 	},	
-	evade: {
-		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
-		option: [
-			['slash with sword','sword2'],
-		]
+	beastEnding: {
+		mainText: `<h2>With Greg now dead and you a beast, You're trapped in the Adventurer's realm. Either staying in the Adventurer's dream or going back into the city of Yarn, you are trapped here for good. </h2>`,
+		option: []
 	},	
 
+	slashGreg: {
+		mainText: `<h2>Your sword goes straight through him. He has gone lifeless now. An outer worldly being comes from the shadows and knocks you unconcious. </h2>`,
+		option: [
+			['Bounded','boundedEnding'],
+		]
+	},	
+	gregDeath: {
+		mainText: `<h2>You slay Greg. He whispers, "You have freed me from this. I thank you." He then disappears. An outer worldly being comes from the shadows and knocks you unconcious. </h2>`,
+		option: [
+			['Wake up','boundedEnding'],
+		]
+	},	
+	
+	critical: {
+		mainText: `<h2>You see Greg's body get propelled by your volley of bullets. It then disappears into thin air. A large being from the sky comes down to you and puts you into a coma.  </h2>`,
+		option: [
+			['Wake up','boundedEnding'],
+		]
+	},	
+	backstab: {
+		mainText: `<h2>You backstab Greg with your serrated sword. It goes clean through. You can see his body, once full of life, become limp. An outer worldly being comes from the shadows and knocks you unconcious</h2>`,
+		option: [
+			['Wake up','boundedEnding'],
+		]
+	},	
+	boundedEnding: {
+		mainText: `<h2>You are now in the wheelchair that Greg used. Stuck in the Adventurer's Dream assuming Greg's position to guide adventurers. You are confided to this realm. </h2>`,
+		option:[]
+	},
 
 
 
