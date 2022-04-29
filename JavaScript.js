@@ -2,7 +2,7 @@ let breadCrumbs = [],
     itsNotOver = true,
     storyElem = document.getElementById('mainText'),
     ChoicesElem = document.getElementById('actionList'),
-    CrumbElem = document.getElementById('soFar');
+    CrumbElem = document.getElementById('Trails');
 
 const myStory = {
     intro: {
@@ -166,7 +166,7 @@ function buildChoices(){
 	let currentChapter = myStory[breadCrumbs[breadCrumbs.length - 1]],
 			choices = currentChapter.choices;
 			actionList = '';
-	if (choices.length > 0) {
+	if (Choices.length > 0) {
 		for(option of choices){
 				actionList += `<li data-dest='${option[1]}' onclick='storyLoop(this.dataset.dest)'>${option[0]}</li>`
 		}
