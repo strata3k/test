@@ -128,7 +128,7 @@ const myStory = {
 	blunderbust: {
 		mainText: `<h2>You shoot at the 3 and they all fall down. Dead. The body then starts to fade away into dust. </h2>`,
 		option: [
-			['A small vile of blood was dropped','vileOptain'],
+			['A small vile of blood was dropped','vileObtain'],
 		]
 	},
 	sword: {
@@ -179,14 +179,7 @@ const myStory = {
 	vileObtain: {
 		mainText: `<h2>You obtained the blood </h2>`,
 		option: [
-			['Drink the blood','drink'],
 			['Walk to the bridge', 'bridge'],
-		]
-	},	
-	drink: {
-		mainText: `<h2>You drank the blood from the small vile. You feel rejuvinated. </h2>`,
-		option: [
-			['walk to bridge','bridge'],
 		]
 	},	
 	bridge: {
@@ -283,7 +276,59 @@ const myStory = {
 		]
 	},	
 	greg2: {
-		mainText: `<h2>"You've done it dear Adventurer.  </h2>`,
+		mainText: `<h2>"You've done it dear Adventurer. Now, please hand me the brain and I shall free you from this nightmare." </h2>`,
+		option: [
+			['Hand over the brain','ending1'],
+			['Don`t hand over the brain','ending2'],
+		]
+	},	
+	ending1: {
+		mainText: `<h2>"Very well... You were a good adventurer." You are killed by Greg in the Adventurer's Dream. You were now brought back into the city of Yarn, but there are no more lamps to be seen. You are now left to roam the streets of Yarn or die trying. </h2>`,
+		option: [
+			[]
+		]
+	},	
+	ending2: {
+		mainText: `<h2>"Why is it that you want to be so different. Just hand it over." </h2>`,
+		option: [
+			['Hand over the brain','ending1'],
+			['Refuse to hand over the brain','fight']
+		]
+	},	
+	fight: {
+		mainText: `<h2>"You left me with no choice." Greg stands up from his wheelchair, wielding his great sword. </h2>`,
+		option: [
+			['Charge','chargeGreg'],
+			['Use your Blunderbust', 'shootGreg'],
+			['Hold your ground', 'steadFast'],
+		]
+	},	
+	chargeGreg: {
+		mainText: `<h2>You charge at Greg. He riposts your attack and strikes you down. You fall onto your knees. </h2>`,
+		option: [
+			['Drink the bloodvile','bloodVile'],
+		]
+	},	
+	shootGreg: {
+		mainText: `<h2>You Greg and he stumbles onto the ground. He quickly gets back up, but you can tell he was clearly staggered from that shot. </h2>`,
+		option: [
+			['Strike','slashGreg'],
+		]
+	},	
+	steadFast: {
+		mainText: `<h2>You hold your ground and Greg charges at you with alarming speed.  </h2>`,
+		option: [
+			['dodge his attack','dodge'],
+		]
+	},	
+	dodge: {
+		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
+		option: [
+			['slash with sword','sword2'],
+		]
+	},	
+	evade: {
+		mainText: `<h2>You roll out of the cleaver's swipe </h2>`,
 		option: [
 			['slash with sword','sword2'],
 		]
