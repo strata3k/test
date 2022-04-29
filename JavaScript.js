@@ -308,7 +308,7 @@ const myStory = {
 		]
 	},	
 	shootGreg: {
-		mainText: `<h2>You Greg and he stumbles onto the ground. He quickly gets back up, but you can tell he was clearly staggered from that shot. </h2>`,
+		mainText: `<h2>You shoot at Greg and he stumbles onto the ground. He quickly gets back up, but you can tell he was clearly staggered from that shot. </h2>`,
 		option: [
 			['Strike','slashGreg'],
 		]
