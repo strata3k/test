@@ -206,7 +206,27 @@ const myStory = {
 	blunderbust2: {
 		mainText: `<h2>You shoot at the hands of the beast. It screeches in pain. </h2>`,
 		option: [
-			['stab the beast','stab'],
+			['Stab the beast','stab'],
+			['Use your blunderbust','blunder']
+		]
+	},	
+	blunder: {
+		mainText: `<h2>You try to use your blunderbust on the beast. But since you're in its grasps you're unable to pull the trigger. The beast holds you in one hand and drives it's long claw into you. You are losing too much blood. What will you do?</h2>`,
+		option: [
+			['Use the vile','transform'],
+		]
+	},	
+	transform: {
+		mainText: `<h2>As the beast crushes you, the vile of blood breaks and it seeps into your wounds. Causing your body to feel rejuvinated. Not so long after, you start to feel dizzy and soon before you know it, you have turned into a beast within the claws of the beast. </h2>`,
+		option: [
+			['Slash the beast','beast'],
+		]
+	},	
+
+	beast: {
+		mainText: `<h2>You slice the beast's arm off. Then finally slash it's neck off with your claws. You are now the beast that inhabits the bride of Yarn. Opposing those who come for your brain. Those, who come to you to get out of the Adventurer's Nightmare. </h2>`,
+		option: [
+			[]
 		]
 	},	
 	sword3: {
