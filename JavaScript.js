@@ -226,7 +226,7 @@ const myStory = {
 	},	
 
 	beast: {
-		mainText: `<h2>You slice the beast's arm off. Then finally slash it's neck off with your claws. You are now the beast that inhabits the bride of Yarn. Opposing those who come for your brain. Those, who come to you to get out of the Adventurer's Nightmare. </h2>`,
+		mainText: `<h2>You slice the beast's arm off. Then finally slash it's neck off with your claws. You are now the beast that inhabits the bridge of Yarn. Opposing those who come for your brain. Those, who come to you to get out of the Adventurer's Nightmare. </h2>`,
 		option: [
 			[]
 		]
