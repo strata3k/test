@@ -326,6 +326,7 @@ const myStory = {
 			['Backstab him','backStab'],
 		]
 	},	
+	//patch 0.01 added backStab
 	backStab: {
 		mainText: `<h2>You grab your sword and shove it straight through Greg. He lets his final gasp out and dies. Then, an outer worldly beast comes and knocks you out</h2>`,
 		option: [
