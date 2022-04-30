@@ -227,9 +227,7 @@ const myStory = {
 
 	beast: {
 		mainText: `<h2>You slice the beast's arm off. Then finally slash it's neck off with your claws. You are now the beast that inhabits the bridge of Yarn. Opposing those who come for your brain. Those, who come to you to get out of the Adventurer's Nightmare. </h2>`,
-		option: [
-			[]
-		]
+		option: []
 	},	
 	sword3: {
 		mainText: `<h2>You try to stab the beast, but its no use because the strength of the beast is too great. You died. </h2>`,
