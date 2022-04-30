@@ -210,12 +210,14 @@ const myStory = {
 			['Use your blunderbust','blunder']
 		]
 	},	
+	//patch 0.02 added beast ending on bridge
 	blunder: {
 		mainText: `<h2>You try to use your blunderbust on the beast. But since you're in its grasps you're unable to pull the trigger. The beast holds you in one hand and drives it's long claw into you. You are losing too much blood. What will you do?</h2>`,
 		option: [
 			['Use the vile','transform'],
 		]
 	},	
+
 	transform: {
 		mainText: `<h2>As the beast crushes you, the vile of blood breaks and it seeps into your wounds. Causing your body to feel rejuvinated. Not so long after, you start to feel dizzy and soon before you know it, you have turned into a beast within the claws of the beast. </h2>`,
 		option: [
