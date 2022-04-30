@@ -326,6 +326,12 @@ const myStory = {
 			['Backstab him','backStab'],
 		]
 	},	
+	backStab: {
+		mainText: `<h2>You grab your sword and shove it straight through Greg. He lets his final gasp out and dies. Then, an outer worldly beast comes and knocks you out</h2>`,
+		option: [
+			['Bounded','boundedEnding'],
+		]
+	},
 	bloodVile: {
 		mainText: `<h2>You drink the bloodvile. You feel rejuvinated and are transforming into a much larger creature. You became a beast. Greg's great sword becomes apart of your body.  </h2>`,
 		option: [
