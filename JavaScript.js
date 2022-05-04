@@ -40,12 +40,12 @@ const myStory = {
 	lamp: {
 		mainText: `<h2>As you physically touch the lamp post, a dozen little frogs appear coming from the base. They croak at you as the lamp post lights up. As it gets brighter, you begin to fade away bit by bit. You appear in this different area that is all to unknown to you. You see a chapal and multiple gravestones.</h2>`,
 		option: [
-			['Go to chapal','chapal'],
+			['Go to chapal','chapel'],
 			['Go to gravestone','gravestone']
 		]
 	},
-	chapal: {
-		mainText: `<h2>You walk up the chapal stone steps and open the door. You spot a man in a wheelchair. </h2>`,
+	chapel: {
+		mainText: `<h2>You walk up the chapel stone steps and open the door. You spot a man in a wheelchair. </h2>`,
 		option: [
 			['Approach him','approach'],
 		]
@@ -90,7 +90,7 @@ const myStory = {
 	gravestone: {
 		mainText: `<h2>It's just a gravestone </h2>`,
 		option: [
-			['Go to chapal','chapal'],
+			['Go to chapal','chapel'],
 		]
 	},
 	gravestoneOpen: {
