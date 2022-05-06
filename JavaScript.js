@@ -395,13 +395,10 @@ const myStory = {
 	},
 
 
-
-
-
-
-
-
 }
+
+
+
 
 
 function buildStory(){

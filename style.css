@@ -21,6 +21,14 @@ body {
     background-color: slategrey;
 }
 
+
+
+
+
+scroll-behavior{ 
+    scroll-behavior: auto;
+}
+
 .mainText {
     font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
     background-color: gainsboro;
@@ -45,6 +53,10 @@ h1 {
     width: 100%;
 }
 
+li:hover{
+    cursor: pointer;
+}
+
 p:hover, li:hover, a:hover{
     text-shadow : horizontal-shadow verticle-shadow blur color;
 }
@@ -53,8 +65,12 @@ p:hover, li:hover, a:hover{
     background:#111;
     color: #fff;
     text-shadow: 1px 1 px 10px #fff, 1px 1 px 10px #ccc;
-    font-size:16px;
+    font-size: 32px;
 
+}
+
+li {
+    font-size: 32px;
 }
 
 p:hover, li:hover, a:hover{
