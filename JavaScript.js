@@ -180,8 +180,87 @@ const myStory = {
 		mainText: `<h2>You obtained the blood </h2>`,
 		option: [
 			['Walk to the bridge', 'bridge'],
+			['Explore the town', 'town'],
+			['Walk the path downwards', 'down']
 		]
-	},	
+	},
+		town: {
+			mainText: `<h2>You walk into the main town of Yarn. You see the destruction of the beastly scourge. You cover your nose due to the stench of burnt corpses. You spot houses with lanterns on. </h2>`,
+			option: [
+				['Go to one of the houses','house'],
+			]
+		},
+		house: {
+			mainText: `<h2>"Are you an adventurer? My father left to go fight the beasts tonight. I hope he can make it back safely. Can you maybe go help father defeat the beasts? Or maybe tell me where he is?" The young girl asks. </h2>`,
+			option: [
+				['Tell her the truth','truth'],
+				['Lie to her', 'lie'],
+			]
+		},
+			truth: {
+		mainText: `<h2>"Oh... is that so. I wish you luck adventurer. Even if you killed my father, he was too far gone."</h2>`,
+		option: [
+			['Return to town','town2'],
+			['Go to the bridge', 'bridge'],
+		]
+	},
+	lie: {
+		mainText: `<h2>"Oh thank goodness! Maybe he's still out there killing all the beasts to protect the town! Thank you for telling me. Here, take this and give it to him." </h2>`,
+		option: [
+			['Accept Item','acceptItem'],
+			['Decline Item', 'declineItem'],
+		]
+	},
+	acceptItem: {
+		mainText: `<h2>You were given a red broche</h2>`,
+		option: [
+			['Go back to town','town2'],
+			['Go to bridge', 'bridge'],
+		]
+	},
+	walk1: {
+		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
+		option: [
+			['Shoot with their blunderbust','blunderbust'],
+			['Hit them with your sword', 'sword'],
+		]
+	},
+	walk1: {
+		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
+		option: [
+			['Shoot with their blunderbust','blunderbust'],
+			['Hit them with your sword', 'sword'],
+		]
+	},
+	walk1: {
+		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
+		option: [
+			['Shoot with their blunderbust','blunderbust'],
+			['Hit them with your sword', 'sword'],
+		]
+	},
+	walk1: {
+		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
+		option: [
+			['Shoot with their blunderbust','blunderbust'],
+			['Hit them with your sword', 'sword'],
+		]
+	},
+	walk1: {
+		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
+		option: [
+			['Shoot with their blunderbust','blunderbust'],
+			['Hit them with your sword', 'sword'],
+		]
+	},
+	walk1: {
+		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
+		option: [
+			['Shoot with their blunderbust','blunderbust'],
+			['Hit them with your sword', 'sword'],
+		]
+	},
+
 	bridge: {
 		mainText: `<h2>As you walk onto the bridge you see this grand cathedral at the end of it.  </h2>`,
 		option: [
