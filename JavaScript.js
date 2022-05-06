@@ -38,9 +38,9 @@ const myStory = {
 		]
 	},
 	lamp: {
-		mainText: `<h2>As you physically touch the lamp post, a dozen little frogs appear coming from the base. They croak at you as the lamp post lights up. As it gets brighter, you begin to fade away bit by bit. You appear in this different area that is all to unknown to you. You see a chapal and multiple gravestones.</h2>`,
+		mainText: `<h2>As you physically touch the lamp post, a dozen little frogs appear coming from the base. They croak at you as the lamp post lights up. As it gets brighter, you begin to fade away bit by bit. You appear in this different area that is all to unknown to you. You see a chapel and multiple gravestones.</h2>`,
 		option: [
-			['Go to chapal','chapel'],
+			['Go to chapel','chapel'],
 			['Go to gravestone','gravestone']
 		]
 	},
@@ -78,11 +78,11 @@ const myStory = {
 	weapons: {
 		mainText: `<h2>"I see you really want to escape from here. Here let me get something from the chest." </h2>`,
 		option: [
-			['wait','weapons2'],
+			['Wait','weapons2'],
 		]
 	},
 	weapons2: {
-		mainText: `<h2>"Ah, thankfully I found some leftover gear. Be very careful when you go to into the city, danger lurks every corner Adventurer." You receive a blunderbust and a serrated sword . You exit the chapal and notice the gravestone now has frogs on it and a lit lamp. </h2>`,
+		mainText: `<h2>"Ah, thankfully I found some leftover gear. Be very careful when you go to into the city, danger lurks every corner Adventurer." You receive a blunderbust and a serrated sword . You exit the chapel and notice the gravestone now has frogs on it and a lit lamp. </h2>`,
 		option: [
 			['Go to gravestone','gravestoneOpen'],
 		]
@@ -90,7 +90,7 @@ const myStory = {
 	gravestone: {
 		mainText: `<h2>It's just a gravestone </h2>`,
 		option: [
-			['Go to chapal','chapel'],
+			['Go to chapel','chapel'],
 		]
 	},
 	gravestoneOpen: {

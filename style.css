@@ -45,6 +45,24 @@ h1 {
     width: 100%;
 }
 
+p:hover, li:hover, a:hover{
+    text-shadow : horizontal-shadow verticle-shadow blur color;
+}
+
+p:hover, li:hover, a:hover{
+    background:#111;
+    color: #fff;
+    text-shadow: 1px 1 px 10px #fff, 1px 1 px 10px #ccc;
+    font-size:16px;
+
+}
+
+p:hover, li:hover, a:hover{
+    background-color: #C8CBC4;
+    box-shadow: 6px;
+}
+
+
 .soFar {
     position: sticky;
     top: 1rem;
@@ -76,7 +94,10 @@ h1 {
     transition: all ease-in 200ms;
 }
 
+.cursor:pointer
+
 #actionlist li:hover,
 .restart:hover{
     color: #850505;
 }
+
