@@ -82,7 +82,7 @@ const myStory = {
 		]
 	},
 	weapons2: {
-		mainText: `<h2>"Ah, thankfully I found some leftover gear. Be very careful when you go to into the city, danger lurks every corner Adventurer." You receive a blunderbust and a serrated sword . You exit the chapel and notice the gravestone now has frogs on it and a lit lamp. </h2>`,
+		mainText: `<h2>"Ah, thankfully I found some leftover gear. Be very careful when you go to into the city, danger lurks every corner Adventurer." You receive a blunderbuss and a serrated sword . You exit the chapel and notice the gravestone now has frogs on it and a lit lamp. </h2>`,
 		option: [
 			['Go to gravestone','gravestoneOpen'],
 		]
@@ -121,11 +121,11 @@ const myStory = {
 	walk1: {
 		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
 		option: [
-			['Shoot with their blunderbust','blunderbust'],
+			['Shoot with their blunderbuss','blunderbuss'],
 			['Hit them with your sword', 'sword'],
 		]
 	},
-	blunderbust: {
+	blunderbuss: {
 		mainText: `<h2>You shoot at the 3 and they all fall down. Dead. The body then starts to fade away into dust. </h2>`,
 		option: [
 			['A small vile of blood was dropped','vileObtain'],
@@ -221,42 +221,42 @@ const myStory = {
 	walk1: {
 		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
 		option: [
-			['Shoot with their blunderbust','blunderbust'],
+			['Shoot with their blunderbuss','blunderbuss'],
 			['Hit them with your sword', 'sword'],
 		]
 	},
 	walk1: {
 		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
 		option: [
-			['Shoot with their blunderbust','blunderbust'],
+			['Shoot with their blunderbuss','blunderbuss'],
 			['Hit them with your sword', 'sword'],
 		]
 	},
 	walk1: {
 		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
 		option: [
-			['Shoot with their blunderbust','blunderbust'],
+			['Shoot with their blunderbuss','blunderbuss'],
 			['Hit them with your sword', 'sword'],
 		]
 	},
 	walk1: {
 		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
 		option: [
-			['Shoot with their blunderbust','blunderbust'],
+			['Shoot with their blunderbuss','blunderbuss'],
 			['Hit them with your sword', 'sword'],
 		]
 	},
 	walk1: {
 		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
 		option: [
-			['Shoot with their blunderbust','blunderbust'],
+			['Shoot with their blunderbuss','blunderbuss'],
 			['Hit them with your sword', 'sword'],
 		]
 	},
 	walk1: {
 		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
 		option: [
-			['Shoot with their blunderbust','blunderbust'],
+			['Shoot with their blunderbuss','blunderbuss'],
 			['Hit them with your sword', 'sword'],
 		]
 	},
@@ -277,21 +277,21 @@ const myStory = {
 	cathedral: {
 		mainText: `<h2>As soon as you step off the bridge, a large dog-like creature jumps from the top of the cathedral. It roars at you causing you to stumble. It swipes at you, but </h2>`,
 		option: [
-			['Use the blunderbust','blunderbust2'],
+			['Use the blunderbuss','blunderbuss2'],
 			['Use the sword', 'sword3'],
 			['Evade', 'evade2'],
 		]
 	},	
-	blunderbust2: {
+	blunderbuss2: {
 		mainText: `<h2>You shoot at the hands of the beast. It screeches in pain. </h2>`,
 		option: [
 			['Stab the beast','stab'],
-			['Use your blunderbust','blunder']
+			['Use your blunderbuss','blunder']
 		]
 	},	
 	//patch 0.02 added beast ending on bridge
 	blunder: {
-		mainText: `<h2>You try to use your blunderbust on the beast. But since you're in its grasps you're unable to pull the trigger. The beast holds you in one hand and drives it's long claw into you. You are losing too much blood. What will you do?</h2>`,
+		mainText: `<h2>You try to use your blunderbuss on the beast. But since you're in its grasps you're unable to pull the trigger. The beast holds you in one hand and drives it's long claw into you. You are losing too much blood. What will you do?</h2>`,
 		option: [
 			['Use the vile','transform'],
 		]
@@ -325,7 +325,7 @@ const myStory = {
 	stab: {
 		mainText: `<h2>You stab the beast in the chest. It bellows in pain. </h2>`,
 		option: [
-			['shoot with blunderbust','finalkill'],
+			['shoot with blunderbuss','finalkill'],
 		]
 	},	
 	
@@ -340,7 +340,7 @@ const myStory = {
 		mainText: `<h2>In front of the cathedral the beast hops down and screeches again. You stumble and it tries to grab you. </h2>`,
 		option: [
 			['Evade','evade2'],
-			['Use the blunderbust','blunderbust2'],
+			['Use the blunderbuss','blunderbuss2'],
 		]
 	},	
 
@@ -396,7 +396,7 @@ const myStory = {
 		mainText: `<h2>"You left me with no choice." Greg stands up from his wheelchair, wielding his great sword. </h2>`,
 		option: [
 			['Charge','chargeGreg'],
-			['Use your Blunderbust', 'shootGreg'],
+			['Use your blunderbuss', 'shootGreg'],
 			['Hold your ground', 'steadFast'],
 		]
 	},	
@@ -421,7 +421,7 @@ const myStory = {
 	dodge: {
 		mainText: `<h2>You roll away from Greg. You're now positioned behind him</h2>`,
 		option: [
-			['Use your blunderbust','critical'],
+			['Use your blunderbuss','critical'],
 			['Backstab him','backStab'],
 		]
 	},	
