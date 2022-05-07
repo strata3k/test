@@ -181,7 +181,6 @@ const myStory = {
 		option: [
 			['Walk to the bridge', 'bridge'],
 			['Explore the town', 'town'],
-			['Walk the path downwards', 'down']
 		]
 	},
 		town: {
@@ -200,7 +199,6 @@ const myStory = {
 			truth: {
 		mainText: `<h2>"Oh... is that so. I wish you luck adventurer. Even if you killed my father, he was too far gone."</h2>`,
 		option: [
-			['Return to town','town2'],
 			['Go to the bridge', 'bridge'],
 		]
 	},
@@ -214,50 +212,7 @@ const myStory = {
 	acceptItem: {
 		mainText: `<h2>You were given a red broche</h2>`,
 		option: [
-			['Go back to town','town2'],
 			['Go to bridge', 'bridge'],
-		]
-	},
-	walk1: {
-		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
-		option: [
-			['Shoot with their blunderbuss','blunderbuss'],
-			['Hit them with your sword', 'sword'],
-		]
-	},
-	walk1: {
-		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
-		option: [
-			['Shoot with their blunderbuss','blunderbuss'],
-			['Hit them with your sword', 'sword'],
-		]
-	},
-	walk1: {
-		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
-		option: [
-			['Shoot with their blunderbuss','blunderbuss'],
-			['Hit them with your sword', 'sword'],
-		]
-	},
-	walk1: {
-		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
-		option: [
-			['Shoot with their blunderbuss','blunderbuss'],
-			['Hit them with your sword', 'sword'],
-		]
-	},
-	walk1: {
-		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
-		option: [
-			['Shoot with their blunderbuss','blunderbuss'],
-			['Hit them with your sword', 'sword'],
-		]
-	},
-	walk1: {
-		mainText: `<h2>"You there, you contaminated this city with the Bad Blood didn't you! You plague ridden rat!" They charge at you </h2>`,
-		option: [
-			['Shoot with their blunderbuss','blunderbuss'],
-			['Hit them with your sword', 'sword'],
 		]
 	},
 
